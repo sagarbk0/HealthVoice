@@ -1,7 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+
 h1 {
 	text-align: center;
+	margin-top: 100px;
+	font-size: 50px;
 }
 
 body {
 	background-color: lightblue;
+	font-family: "Acme";
+	color: hsl(159, 100%, 33%);
+}
+
+.ahead {
+	text-align: right;
+	/* position: fixed; */
+}
+
+p#sub {
+	text-align: center;
+}
+
+form {
+	text-align: center;
+	margin-top: 100px;
+}
+
+button {
+	background-color: lightblue;
+	font-family: "Acme";
+}
+
+input {
+	background-color: hsl(198, 100%, 81%);
+}
+
+p#dis {
+	text-align: center;
+	font-size: 22px;
+	padding-top: 50px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+div#ch0 {
+	height: 100%;
 }
